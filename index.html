@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Among Grub</title>
+  <link rel="icon" href="./img/SRC.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- My Style -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Navbar start -->
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">Among<span> Grub</span>.</a>
+
+    <div class="navbar-nav">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Produk</a>
+      <a href="#products">Layanan</a>
+      <a href="#contact">Kontak</a>
+    </div>
+
+    <div class="navbar-extra">
+      <a href="#" id="search-button"><i data-feather="search"></i></a>
+      <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+      <a href="#" id="list-menu"><i data-feather="menu"></i></a>
+    </div>
+
+    <!-- Search start -->
+    <div class="search-form">
+      <input type="search" id="search-box" placeholder="Telusuri..." />
+      <label for="search-box"><i data-feather="search"></i></label>
+    </div>
+    <!-- Search end -->
+
+    <!-- Shopping Cart Start -->
+    <div class="shopping-cart">
+      <div class="cart-item">
+        <img src="https://i.postimg.cc/RCfcw2FC/Logo-Pulsa-2-1.png" alt="Isi Ulang Pulsa" />
+        <div class="item-detail">
+          <h3>Isi Ulang Pulsa</h3>
+          <div class="item-price">RP 7.000</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+      <div class="cart-item">
+        <img src="https://i.postimg.cc/hGd9MYr0/Logo-Token.jpg" alt="Token Listrik" />
+        <div class="item-detail">
+          <h3>Token Listrik</h3>
+          <div class="item-price">RP 23.000</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+    </div>
+    <!-- Shopping Cart End -->
+  </nav>
+  <!-- Navbar end -->
+
+  <!-- Hero Section Start -->
+  <section class="hero" id="home">
+    <main class="content">
+      <h1><span>Among Grub</span> Tentang Kehidupan Sehari-Hari Kami</h1>
+      <p>
+        Sekelompok Perkumpulan Remaja Menuju Masa Depan Yang Indah.
+      </p>
+      <!-- <a href="#menu" class="cta">Beli Disini</a> -->
+    </main>
+  </section>
+  <!-- Hero Section End -->
+
+  <!-- About Section Start -->
+  <section id="about" class="about">
+    <h2><span>Tentang</span> Kami</h2>
+
+    <div class="row">
+      <div class="about-img">
+        <img src="./img/bb.jpg" alt="Tentang Kami" />
+      </div>
+      <div class="content">
+        <h3>Deskripsi Tentang Kelompok Kami</h3>
+        <p>
+          Sebagai manusia yang menjalani kehidupan tentunya kamu tidak akan pernah lepas dari yang namanya masalah. Ya, masalah memang tidak bisa diprediksi dan terkadang datang dalam berbagai macam bentuk yang senantiasa membuat hidup manusia semakin sulit, baik secara fisik maupun mental.
+Namun, terkadang, kamu hanya membutuhkan kata-kata motivasi hidup dari orang-orang tepercaya untuk senantiasa membuat hidup lebih semangat. Oleh karena itu, simak kumpulan kata-kata motivasi hidup favorit dari seluruh belahan dunia ini.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- About Section End -->
+
+  <!-- Menu Section Start -->
+  <section id="menu" class="menu">
+    <h2><span>Kenangan</span> Kami</h2>
+    <p>Kami juga mempunyai banyak poto tentang kegiatan kami</p>
+
+    <div class="row">
+      <div class="menu-card">
+        <img src="./img/bb.jpg"
+          alt="Makan-Makan sebelum kuliah" class="menu-card-img" />
+        <h3 class="menu-card-title"> Reuni sebelum masuk kuliah </h3>
+        <p class="menu-card-price">2023</p>
+      </div>
+      <div class="menu-card">
+        <img src="./img/bi.jpg" alt="Aqua bukber di rumah akram " class="menu-card-img" />
+        <h3 class="menu-card-title"> Bukber di rumah akram </h3>
+        <p class="menu-card-price">2022</p>
+      </div>
+      <div class="menu-card">
+        <img src="./img/ba.jpg" alt="ultah giyat"
+          class="menu-card-img" />
+        <h3 class="menu-card-title"> ultah giyat </h3>
+        <p class="menu-card-price">2023</p>
+      </div>
+      <div class="menu-card">
+        <img src="./img/bn.jpg" alt="badminton" class="menu-card-img" />
+        <h3 class="menu-card-title"> Bermain Bulutangkis </h3>
+        <p class="menu-card-price">2022</p>
+      </div>
+      <div class="menu-card">
+        <img src="./img/bm.jpg" alt="nongkrong di cemara" class="menu-card-img" />
+        <h3 class="menu-card-title"> Nongkrong di cemara </h3>
+        <p class="menu-card-price">2023</p>
+      </div>
+      <div class="menu-card">
+        <img src="./img/bv.jpg" alt="makan-makan sebelum masuk kuliah" class="menu-card-img" />
+        <h3 class="menu-card-title"> makan-makan sebelum masuk kuliah </h3>
+        <p class="menu-card-price">2023</p>
+      </div>
+      <div class="menu-card">
+        <img src="./img/bz.jpg" alt="ultah ceer" class="menu-card-img" />
+        <h3 class="menu-card-title"> ultah ceer </h3>
+        <p class="menu-card-price">2023</p>
+      </div>
+      <div class="menu-card">
+        <img src="./img/bo.jpg" alt="syukuran di rumah aswan" class="menu-card-img" />
+        <h3 class="menu-card-title"> syukuran di rumah aswan </h3>
+        <p class="menu-card-price">2023</p>
+      </div>
+      <div class="menu-card">
+        <img src="./img/bp.jpg" alt="gramed time" class="menu-card-img" />
+        <h3 class="menu-card-title"> poto di gramedia </h3>
+        <p class="menu-card-price">2023</p>
+      </div>
+      <div class="menu-card">
+        <img src="./img/bx.jpg" alt="poto di rumah giyats" class="menu-card-img" />
+        <h3 class="menu-card-title"> poto di rumah giyats </h3>
+        <p class="menu-card-price">2023</p>
+      </div>
+      <div class="menu-card">
+        <img src="./img/bq.jpg" alt="abes bukber" class="menu-card-img" />
+        <h3 class="menu-card-title"> poto di gramedia </h3>
+        <p class="menu-card-price">2023</p>
+      </div>
+      <div class="menu-card">
+        <img src="./img/pp.jpg" alt="ultah aswan" class="menu-card-img" />
+        <h3 class="menu-card-title"> ultah aswan </h3>
+        <p class="menu-card-price">2023</p>
+      </div>
+      <div class="menu-card">
+        <img src="./img/bw.jpg" alt="reuni kelas9-1" class="menu-card-img" />
+        <h3 class="menu-card-title"> reuni kelas 9-1 </h3>
+        <p class="menu-card-price">2023</p>
+      </div>
+      <div class="menu-card">
+        <img src="./img/xx.jpg" alt="ultah amirah" class="menu-card-img" />
+        <h3 class="menu-card-title"> ultah amirah </h3>
+        <p class="menu-card-price">2022</p>
+      </div>
+    </div>
+  </section>
+  <!-- Menu Section end -->
+
+  <!-- Product Section Start -->
+  <section class="products" id="products">
+    <h2><span>Layanan</span> Telekomunikasi</h2>
+    <p>
+      Waroeng Riyan selain menyediakan produk yang bagus, kita juga menyediakan layanan jasa untuk isi ulang pulsa dan
+      juga token listrik.
+    </p>
+
+    <div class="row">
+      <div class="product-card">
+        <div class="product-icons">
+          <!-- <a href="#"><i data-feather="shopping-cart"></i></a> -->
+          <a href="#" class="item-detail-button"><i data-feather="zoom-in"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="https://i.postimg.cc/RCfcw2FC/Logo-Pulsa-2-1.png" alt="Product 1" />
+        </div>
+        <div class="product-content">
+          <h3>Isi Ulang Pulsa</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <!-- <div class="product-price">RP 10.000 <span>RP 18.000</span></div> -->
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <!-- <a href="#"><i data-feather="shopping-cart"></i></a> -->
+          <a href="#" class="item-detail-button"><i data-feather="zoom-in"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="https://i.postimg.cc/hGd9MYr0/Logo-Token.jpg" alt="Product 1" />
+        </div>
+        <div class="product-content">
+          <h3>Token Listrik</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <!-- <div class="product-price">RP 10.000 <span>RP 18.000</span></div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Section End -->
+
+  <!-- Contact Section Start -->
+  <section id="contact" class="contact">
+    <h2><span>Kontak</span> Kami</h2>
+    <p>
+      Universitas Negeri Medan
+    </p>
+
+    <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15927.637544667385!2d98.6989476554199!3d3.6082101000000235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303131714c40fccd%3A0x17660a6371985d8c!2sUniversitas%20Negeri%20Medan!5e0!3m2!1sid!2sid!4v1695272247075!5m2!1sid!2sid" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <form action="">
+        <div class="input-group">
+          <i data-feather="user"></i>
+          <input type="text" placeholder="Nama" />
+        </div>
+        <div class="input-group">
+          <i data-feather="phone"></i>
+          <input type="text" placeholder="No HP" />
+        </div>
+        <div class="input-group">
+          <i data-feather="mail"></i>
+          <input type="text" placeholder="Isi Pesan" />
+        </div>
+        <button type="submit" class="btn">Kirim Pesan</button>
+      </form>
+    </div>
+  </section>
+  <!-- Contact Section End -->
+
+  <!-- Footer Start -->
+  <footer>
+    <div class="socials">
+      <a href="https://instagram.com/m.budiakbaar?igshid=OGQ5ZDc2ODk2ZA=="><i data-feather="instagram"></i></a>
+      <a href=""><i data-feather="message-circle"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100076694177679&mibextid=9R9pXO"><i data-feather="facebook"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Kontak</a>
+    </div>
+
+    <div class="credit">
+      <p>
+        Dibuat Oleh
+        <a href="https://instagram.com/m.budiakbaar?igshid=OGQ5ZDc2ODk2ZA=="> <span>HAMBA ALLAH</span></a>
+        | &copy; 2023.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Footer end -->
+
+  <!-- Modal Box Items Start -->
+  <div class="modal" id="item-detail-modal">
+    <div class="modal-container">
+      <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      <div class="modal-content">
+        <img src="https://i.postimg.cc/RCfcw2FC/Logo-Pulsa-2-1.png" alt="Product 1" />
+        <div class="product-content">
+          <h3>Layanan Isi Ulang Pulsa</h3>
+          <p>
+            |TSEL 5K RP 7.000| |TSEL 10K RP 12.000| |TSEL 20K RP 22.000|
+          </p>
+          <div class="product-content">
+            <h3>List Harga</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <!-- <div class="product-price">RP 10.000 <span>RP 18.000</span></div> -->
+            <!-- <a href="#"><i data-feather="shopping-cart"></i>Tambah Ke Keranjang</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Items End -->
+
+    <!-- Modal Box Second Start-->
+    <div class="modal2" id="item-detail-modal">
+      <div class="modal-container2">
+        <a href="#" class="icon-close"><i data-feather="x"></i></a>
+        <div class="modal-content2">
+          <img src="https://i.postimg.cc/hGd9MYr0/Logo-Token.jpg" alt="Product 1" />
+          <div class="product-content">
+            <h3>Token Listrik</h3>
+            <p>
+              |20 RP 23.000| |50 RP 53.000| |100 RP 103.000|
+            </p>
+            <div class="product-content">
+              <h3>List Harga</h3>
+              <div class="product-stars">
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star"></i>
+              </div>
+              <!-- <div class="product-price">RP 10.000 <span>RP 18.000</span></div> -->
+              <!-- <a href="#"><i data-feather="shopping-cart"></i>Tambah Ke Keranjang</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal Box Second End-->
+
+      <!-- Feather Icons -->
+      <script>
+        feather.replace();
+      </script>
+
+      <!-- My Js -->
+      <script src="script.js"></script>
+</body>
+
+</html>
